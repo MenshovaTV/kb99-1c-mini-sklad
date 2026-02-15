@@ -1,86 +1,66 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<InformationRegister uuid="adea2b61-5456-4b78-aebd-5bb0a62536f5">
+	<AccumulationRegister uuid="648486bf-a48c-4be8-aef3-15ea1a43486a">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.Цены" category="Record">
-				<xr:TypeId>dd8ee623-f37f-4b74-87bf-036b71eb8bc8</xr:TypeId>
-				<xr:ValueId>2a9b1b79-aacd-4f66-8779-b58ce3d51a97</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.СтоимостьТоваров" category="Record">
+				<xr:TypeId>561725a0-6a1f-48a5-9b41-52f26fc04699</xr:TypeId>
+				<xr:ValueId>72d1fcf5-e56c-4ad0-87a4-b6446d2d6bc1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.Цены" category="Manager">
-				<xr:TypeId>1dbf3da4-c0fd-4cb4-81df-f9b247ac317f</xr:TypeId>
-				<xr:ValueId>bd40b911-9930-4ad3-8972-c0320bb7c1fa</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.СтоимостьТоваров" category="Manager">
+				<xr:TypeId>c7121ddf-3b77-47be-b72a-6bdccb2b9b16</xr:TypeId>
+				<xr:ValueId>1de5ab79-a98b-4c98-93e7-1e6479f9d8ad</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.Цены" category="Selection">
-				<xr:TypeId>d30f9e02-c858-422d-ae29-21551df28e47</xr:TypeId>
-				<xr:ValueId>9479c125-c0ec-4744-a7cb-0edcef7a7b8c</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.СтоимостьТоваров" category="Selection">
+				<xr:TypeId>10e6cb30-c5d4-4532-98db-1f203e309a61</xr:TypeId>
+				<xr:ValueId>9f0ef000-4585-407e-bbf2-cd9e6aaca970</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.Цены" category="List">
-				<xr:TypeId>c6625f95-e394-47f6-920c-60a4a7d0ee3d</xr:TypeId>
-				<xr:ValueId>b79ed725-6ec5-478e-a12c-9b15c6a8f3f9</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.СтоимостьТоваров" category="List">
+				<xr:TypeId>74d9c1ef-8c67-493b-bff8-df5a69d5c7cd</xr:TypeId>
+				<xr:ValueId>ba6a8cf6-514c-4f18-ac19-c793806a553a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.Цены" category="RecordSet">
-				<xr:TypeId>b1fe1705-2675-4125-9ace-81e76fc84311</xr:TypeId>
-				<xr:ValueId>d4e27f5f-6f80-4cbd-9c79-bc235c6544cb</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.СтоимостьТоваров" category="RecordSet">
+				<xr:TypeId>32972cf8-0fe9-4fb6-b7d0-e73c0ff90204</xr:TypeId>
+				<xr:ValueId>31489122-d84e-43f8-88a6-4fafbd48bfe6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.Цены" category="RecordKey">
-				<xr:TypeId>9f72a714-6408-4371-adb6-0a41545b850e</xr:TypeId>
-				<xr:ValueId>9f697929-b546-4b86-9311-ecb9cb4e69fa</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.Цены" category="RecordManager">
-				<xr:TypeId>dfba316a-8785-4f83-bb30-7a0bccfe3304</xr:TypeId>
-				<xr:ValueId>62e73fbc-7ef8-4434-8c4d-8df83f86ca10</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.СтоимостьТоваров" category="RecordKey">
+				<xr:TypeId>78cefcfe-cd4c-4cc4-b43f-511baf3ece51</xr:TypeId>
+				<xr:ValueId>38c591dd-eeec-47cd-adf7-2a7f4c4dd5e9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Цены</Name>
+			<Name>СтоимостьТоваров</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Цены</v8:content>
+					<v8:content>Стоимость товаров</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<EditType>InDialog</EditType>
-			<DefaultRecordForm/>
 			<DefaultListForm/>
-			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
-			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>true</MainFilterOnPeriod>
+			<RegisterType>Balance</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
-			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
-			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+			<ListPresentation/>
+			<ExtendedListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Цена</v8:content>
+					<v8:content>Движения по регистру Стоимость товаров</v8:content>
 				</v8:item>
-			</RecordPresentation>
-			<ExtendedRecordPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Цены на товары</v8:content>
-				</v8:item>
-			</ListPresentation>
-			<ExtendedListPresentation/>
+			</ExtendedListPresentation>
 			<Explanation/>
-			<DataHistory>DontUse</DataHistory>
-			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
-			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="03bc6309-79c6-4361-88ed-7e27cfb461f1">
+			<Resource uuid="3c641065-6947-469a-92b5-84daed5601f5">
 				<Properties>
-					<Name>Цена</Name>
+					<Name>Стоимость</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цена</v8:content>
+							<v8:content>Стоимость</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -89,7 +69,7 @@
 						<v8:NumberQualifiers>
 							<v8:Digits>15</v8:Digits>
 							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
@@ -102,8 +82,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -113,18 +91,16 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="340e65ab-13cb-4822-b095-4cce00f100db">
+			<Dimension uuid="8f53aaa6-088b-469e-b4fc-d5dd254c8f61">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>Товар</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Товар</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -141,8 +117,6 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -152,15 +126,12 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>true</Master>
-					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-					<TypeReductionMode>TransformValues</TypeReductionMode>
+					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
 		</ChildObjects>
-	</InformationRegister>
+	</AccumulationRegister>
 </MetaDataObject>

@@ -67,12 +67,12 @@
 					<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="25"/>
 				</LabelField>
-				<InputField name="ТоварыТовар" id="26">
-					<DataPath>Объект.Товары.Товар</DataPath>
+				<InputField name="ТоварыНоменклатура" id="26">
+					<DataPath>Объект.Товары.Номенклатура</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="28"/>
+					<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="28"/>
 					<Events>
 						<Event name="OnChange">ТоварыТоварПриИзменении</Event>
 					</Events>
@@ -128,6 +128,16 @@
 			</Item>
 			<Item>
 				<Command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.СтоимостьТоваров.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиТоваровПоПартиям.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

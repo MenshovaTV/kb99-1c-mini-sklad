@@ -254,9 +254,12 @@
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Report>ОборотыПоТоварам</Report>
+			<Report>ОстаткиТоваровНаДату</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
+			<AccumulationRegister>ОстаткиТоваровПоПартиям</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
