@@ -247,12 +247,15 @@
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonPicture>Склад</CommonPicture>
+			<FilterCriterion>Реализация</FilterCriterion>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОстаткиТоваровНаДату</Report>
 			<InformationRegister>Цены</InformationRegister>

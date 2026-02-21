@@ -3,8 +3,24 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОтчетОстаткиТоваровНаДатуОстаткиТовара" id="41">
+				<Type>CommandBarButton</Type>
+				<CommandName>Report.ОстаткиТоваровНаДату.Command.ОстаткиТовара</CommandName>
+				<DataPath>Items.Товары.CurrentData.Номенклатура</DataPath>
+				<ExtendedTooltip name="ФормаОтчетОстаткиТоваровНаДатуОстаткиТовараРасширеннаяПодсказка" id="42"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
+		<InputField name="Покупатель" id="7">
+			<DataPath>Объект.Покупатель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПокупательКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПокупательРасширеннаяПодсказка" id="9"/>
+		</InputField>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -19,12 +35,11 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Покупатель" id="7">
-			<DataPath>Объект.Покупатель</DataPath>
-			<EditMode>EnterOnInput</EditMode>
+		<InputField name="Менеджер" id="38">
+			<DataPath>Объект.Менеджер</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ПокупательКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ПокупательРасширеннаяПодсказка" id="9"/>
+			<ContextMenu name="МенеджерКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="МенеджерРасширеннаяПодсказка" id="40"/>
 		</InputField>
 		<Table name="Товары" id="10">
 			<Representation>List</Representation>
