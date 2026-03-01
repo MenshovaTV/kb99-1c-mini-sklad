@@ -33,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваровПоПартиям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.Реализация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковТоваров</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
