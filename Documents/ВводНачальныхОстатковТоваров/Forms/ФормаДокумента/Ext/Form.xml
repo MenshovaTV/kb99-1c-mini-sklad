@@ -92,6 +92,13 @@
 					<ContextMenu name="ДвиженияОстаткиТоваровТоварКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ДвиженияОстаткиТоваровТоварРасширеннаяПодсказка" id="31"/>
 				</InputField>
+				<InputField name="ДвиженияОстаткиТоваровСклад" id="37">
+					<DataPath>Объект.RegisterRecords.ОстаткиТоваров.Склад</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДвиженияОстаткиТоваровСкладКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ДвиженияОстаткиТоваровСкладРасширеннаяПодсказка" id="39"/>
+				</InputField>
 				<InputField name="ДвиженияОстаткиТоваровКоличество" id="32">
 					<DataPath>Объект.RegisterRecords.ОстаткиТоваров.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>

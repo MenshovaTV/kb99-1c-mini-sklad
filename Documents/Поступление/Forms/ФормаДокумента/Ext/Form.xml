@@ -26,6 +26,12 @@
 			<ContextMenu name="ПоставщикКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="Склад" id="40">
+			<DataPath>Объект.Склад</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СкладКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="42"/>
+		</InputField>
 		<Table name="Товары" id="10">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -141,6 +147,10 @@
 					<v8:content>Подбор</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Use>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Гость">false</xr:Value>
+			</Use>
 			<Action>ПодборВопрос</Action>
 		</Command>
 	</Commands>
@@ -158,6 +168,11 @@
 			</Item>
 			<Item>
 				<Command>AccumulationRegister.ОстаткиТоваровПоПартиям.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccountingRegister.Управленческий.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

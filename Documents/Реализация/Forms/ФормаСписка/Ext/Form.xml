@@ -90,6 +90,11 @@
 					<ContextMenu name="ПокупательКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ПокупательРасширеннаяПодсказка" id="24"/>
 				</InputField>
+				<LabelField name="Склад" id="31">
+					<DataPath>Список.Склад</DataPath>
+					<ContextMenu name="СкладКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="33"/>
+				</LabelField>
 				<LabelField name="ОбъектОснование" id="25">
 					<DataPath>Список.ОбъектОснование</DataPath>
 					<ContextMenu name="ОбъектОснованиеКонтекстноеМеню" id="26"/>

@@ -217,6 +217,35 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>21</f>
+					<parameter>Склад</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<columnsID>40021d13-4305-41f0-94a9-fab7c5663db1</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>Покупатель</v8:content>
 						</v8:item>
 					</tl>
@@ -231,24 +260,24 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>7</index>
-		<indexTo>9</indexTo>
+		<index>8</index>
+		<indexTo>10</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>10</index>
+		<index>11</index>
 		<row>
 			<columnsID>10933646-7d5e-4a4b-85b1-66eeb92080f2</columnsID>
 			<c>
 				<c>
-					<f>20</f>
+					<f>22</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -259,7 +288,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -270,7 +299,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -281,7 +310,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -292,7 +321,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -304,55 +333,55 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>11</index>
+		<index>12</index>
 		<row>
 			<columnsID>10933646-7d5e-4a4b-85b1-66eeb92080f2</columnsID>
 			<c>
 				<i>1</i>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<parameter>НомерСтроки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>26</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<parameter>Сумма</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>12</index>
+		<index>13</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>13</index>
+		<index>14</index>
 		<row>
 			<c>
 				<i>8</i>
 				<c>
-					<f>26</f>
+					<f>28</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -363,16 +392,16 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>29</f>
 					<parameter>ВсегоПоДокументу</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>28</defaultFormatIndex>
-	<height>14</height>
-	<vgRows>14</vgRows>
+	<defaultFormatIndex>30</defaultFormatIndex>
+	<height>15</height>
+	<vgRows>15</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -384,7 +413,7 @@
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>6</r>
+		<r>7</r>
 		<c>2</c>
 		<w>1</w>
 	</merge>
@@ -392,8 +421,8 @@
 		<name>Всего</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>12</beginRow>
-			<endRow>13</endRow>
+			<beginRow>13</beginRow>
+			<endRow>14</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -413,8 +442,8 @@
 		<name>Товары</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>11</beginRow>
-			<endRow>11</endRow>
+			<beginRow>12</beginRow>
+			<endRow>12</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 			<columnsID>10933646-7d5e-4a4b-85b1-66eeb92080f2</columnsID>
@@ -424,8 +453,8 @@
 		<name>ТоварыШапка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>9</beginRow>
-			<endRow>10</endRow>
+			<beginRow>10</beginRow>
+			<endRow>11</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -435,7 +464,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>6</endRow>
+			<endRow>7</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -505,6 +534,14 @@
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<markNegatives>false</markNegatives>
+	</format>
+	<format>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<columnSizeChange>QuickChange</columnSizeChange>

@@ -41,6 +41,12 @@
 			<ContextMenu name="МенеджерКонтекстноеМеню" id="39"/>
 			<ExtendedTooltip name="МенеджерРасширеннаяПодсказка" id="40"/>
 		</InputField>
+		<InputField name="Склад" id="43">
+			<DataPath>Объект.Склад</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СкладКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="45"/>
+		</InputField>
 		<Table name="Товары" id="10">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -153,6 +159,11 @@
 			</Item>
 			<Item>
 				<Command>AccumulationRegister.ОстаткиТоваровПоПартиям.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccountingRegister.Управленческий.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
