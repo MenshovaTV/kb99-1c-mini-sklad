@@ -34,6 +34,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FilterCriterion.Реализация</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОбщиеНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СкладыПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Филиалы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменДанными</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExchangePlan.Отделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменСОтделениями</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

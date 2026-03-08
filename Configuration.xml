@@ -246,31 +246,59 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
+			<Subsystem>Бухгалтерия</Subsystem>
 			<CommonPicture>Склад</CommonPicture>
+			<CommonPicture>Бухгалтерия</CommonPicture>
+			<SessionParameter>ТекущийСклад</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>Менеджер</Role>
 			<Role>Кладовщик</Role>
 			<Role>Гость</Role>
+			<Role>Директор</Role>
+			<Role>Бухгалтер</Role>
 			<FilterCriterion>Реализация</FilterCriterion>
 			<CommonModule>РаботаСДокументами</CommonModule>
 			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<CommonModule>РегламентныеПроцедуры</CommonModule>
+			<CommonModule>Обмен</CommonModule>
+			<CommonModule>ПроведениеРасчетов</CommonModule>
+			<ExchangePlan>Филиалы</ExchangePlan>
+			<ExchangePlan>Отделения</ExchangePlan>
 			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
 			<ScheduledJob>СлияниеИндексов</ScheduledJob>
+			<Constant>ПрефиксНумерации</Constant>
+			<CommonForm>ОбщиеНастройки</CommonForm>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>Субконто</Catalog>
+			<Catalog>ВидыГрафиковРаботы</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
 			<Document>ВводНачальныхОстатковТоваров</Document>
+			<Document>НачисленияСотрудникам</Document>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ОборотыПоТоварам</Report>
 			<Report>ОстаткиТоваровНаДату</Report>
+			<Report>ОборотноСальдоваяВедомость</Report>
+			<Report>Перерасчет</Report>
+			<Report>НачисленияСотрудникам</Report>
+			<Report>ДиаграммаНачислений</Report>
+			<DataProcessor>ОбменДанными</DataProcessor>
+			<DataProcessor>ОбменСОтделениями</DataProcessor>
 			<InformationRegister>Цены</InformationRegister>
+			<InformationRegister>ГрафикиРаботы</InformationRegister>
+			<InformationRegister>СкладыПользователей</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<AccumulationRegister>ОстаткиТоваровПоПартиям</AccumulationRegister>
+			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
+			<ChartOfAccounts>Основной</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
+			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
+			<CalculationRegister>Начисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
